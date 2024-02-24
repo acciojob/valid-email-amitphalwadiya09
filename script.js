@@ -1,5 +1,13 @@
 function validEmail(str) {
   //your JS code here.
+	if(str.slice(-10)=="@gamil.com")
+	{
+		return true;
+	}
+	else
+	{ 
+		return false
+	}
 }
 
 // Do not change the code below.
